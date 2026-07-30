@@ -1,1 +1,100 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>*** WELCOME TO MY HOMEPAGE ***</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body bgcolor="#000080" text="#FFFF00" link="#00FFFF" vlink="#FF00FF">
+
+   <center>
+        <!-- Animated Flame Text Effect -->
+        <h1><font face="Comic Sans MS, Arial" size="7" color="#FF0000">🔥🔥 WELCOME TO MY HOMEPAGE 🔥🔥</font></h1>
+        
+        <br><br>
+        
+        <!-- Scrolling Marquee -->
+        <marquee bgcolor="#000000" scrollamount="5" width="70%">
+            <font face="Courier New" size="5" color="#00FF00">
+                *** SITE UPDATED: <span id="live-date"></span> *** NO VISUAL BASIC REQUIRED *** BEST VIEWED IN NETSCAPE NAVIGATOR 4.0 AT 800x600 RESOLUTION ***
+            </font>
+        </marquee>
+
+        <!-- Date Script -->
+        <script language="JavaScript">
+            var months = new Array(
+                "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", 
+                "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"
+            );
+            var d = new Date();
+            var currentMonth = months[d.getMonth()];
+            var currentDay = d.getDate();
+            var currentYear = d.getFullYear();
+            
+            // Output to the marquee span
+            document.getElementById("live-date").innerHTML = currentMonth + " " + currentDay + ", " + currentYear;
+        </script>
+
+        <br><br><br>
+
+        <!-- Under Construction Section -->
+        <table border="5" cellpadding="10" cellspacing="5" bordercolor="#FFCC00" bgcolor="#000000" width="60%">
+            <tr>
+                <td align="center">
+                    <!-- Text representation of the yellow construction barrier -->
+                    <font face="Impact" size="6" color="#FFCC00">🚧 UNDER CONSTRUCTION 🚧</font>
+                    <br><br>
+                    <font face="Comic Sans MS" size="4" color="#FFFFFF">
+                        Please pardon our dust! Sign our guestbook while you wait for the full experience to load!
+                    </font>
+                    <br><br>
+                    <!-- animated GIF placeholder text -->
+                    <font face="Arial" size="2" color="#FF0000"><b>[INSERT ANIMATED DANCING BABY HERE]</b></font>
+                </td>
+            </tr>
+        </table>
+
+        <br><br><br>
+
+        <!-- Hit Counter -->
+        <font face="Arial" size="3" color="#FFFFFF">
+            You are visitor number:
+            <table border="1" bgcolor="#000000" cellpadding="5" cellspacing="0" display="inline">
+                <tr>
+                    <td><font face="Courier New" size="5" color="#00FF00"><b>0</b></font></td>
+                    <td><font face="Courier New" size="5" color="#00FF00"><b>0</b></font></td>
+                    <td><font face="Courier New" size="5" color="#00FF00"><b>1</b></font></td>
+                    <td><font face="Courier New" size="5" color="#00FF00"><b>3</b></font></td>
+                    <td><font face="Courier New" size="5" color="#00FF00"><b>7</b></font></td>
+                </tr>
+            </table>
+            since yesterday!
+        </font>
+
+        <br><br><br>
+
+        <!-- Guestbook Link with Email Icon -->
+        <font face="Comic Sans MS" size="4">
+            <a href="mailto:webmaster@google.com">
+                📬 Click here to email the Webmaster!
+            </a>
+        </font>
+
+        <br><br>
+
+        <!-- Webring Badge Placeholder -->
+        <table border="1" cellpadding="5" cellspacing="0" bgcolor="#111111">
+            <tr>
+                <td align="center">
+                    <font face="Arial" size="1" color="#FFFFFF">
+                        This site is part of the<br>
+                        <b><font color="#00FF00">GEO-CITIES WEBRING</font></b><br>
+                        [ <a href="#">Prev</a> | <a href="#">Skip</a> | <a href="#">Next</a> ]
+                    </font>
+                </td>
+            </tr>
+        </table>
+
+    </center>
+
+</body>
+</html>
